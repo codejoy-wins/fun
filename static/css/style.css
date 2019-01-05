@@ -1,0 +1,22 @@
+#blue{
+    color:blue;
+}
+
+#upper{
+    background-color: darkcyan;
+    height: 40%;
+    padding: 6rem;
+}
+
+#lower{
+    background-color: lightcoral;
+    height: 30%;
+    padding: 4rem;
+}
+
+.gold{
+    background-color:black;
+    color: gold;
+    padding: 2rem;
+    display: inline-block;
+}
