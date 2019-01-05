@@ -20,3 +20,8 @@
 .inline{
     display: inline-block;
 }
+
+#z{
+    height: 400px;
+    width:200px;
+}

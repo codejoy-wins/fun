@@ -1,9 +1,9 @@
-
+alert("makes no sense");
+// not able to grab element and do stuff to it without functions right now idk y
 function AllDay(){
     var night = document.getElementById("night");
     if(night){
         night.innerHTML = "Day";
-        console.log(night);
         night.id= "day";
         console.log("changing night to day")
     }
