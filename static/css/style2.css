@@ -1,0 +1,21 @@
+.dark{
+    background-color: darkgray;
+}
+.light{
+    background-color: lightblue;
+}
+#higher{
+    height:400px;
+    border: 1ch solid rosybrown;
+}
+
+
+#middle{
+    padding:5rem;
+}
+#upper{
+    text-align: right;
+}
+.inline{
+    display: inline-block;
+}

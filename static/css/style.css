@@ -20,3 +20,12 @@
     padding: 2rem;
     display: inline-block;
 }
+
+#k{
+    padding: 4rem;
+    background-color: slateblue;
+}
+#j{
+    padding: 4rem;
+    background-color: gray;
+}
