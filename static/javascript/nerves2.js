@@ -7,7 +7,7 @@ function AllDay(){
         night.id= "day";
         console.log("changing night to day")
     }
-    var stuff = document.getElementsByClassName("dark");
+    var stuff = document.querySelectorAll(".dark"); // new line
     if(stuff){
         for(var i= 0; i < 10; i++){
             if(stuff[i]){
@@ -24,7 +24,7 @@ function AllNight(){
         day.id = "night";
         console.log("changing day to night");
     }
-    var stuff = document.getElementsByClassName("light");
+    var stuff = document.querySelectorAll(".light");
     if(stuff){
         for(var i= 0; i < 10; i++){
             if(stuff[i]){
@@ -33,3 +33,6 @@ function AllNight(){
         }
     }
 }
+
+// from stack overflow:
+// querySelectorAll(".dark") or quersySelectorAll("#.some_id") perhaps
