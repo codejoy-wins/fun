@@ -1,4 +1,4 @@
-alert("makes no sense");
+alert("thanks stack overflow");
 // not able to grab element and do stuff to it without functions right now idk y
 function AllDay(){
     var night = document.getElementById("night");
